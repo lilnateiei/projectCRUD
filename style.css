@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* linkของฟอนต์ */
+.prompt-thin {
+    font-family: "Prompt", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .prompt-extralight {
+    font-family: "Prompt", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .prompt-light {
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  body {
+    /* body คือการกำหนดให้ฟอนต์ใช้ได้ในส่วนทั้งหมด */
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .prompt-medium {
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .prompt-semibold {
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .prompt-bold {
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .prompt-extrabold {
+    font-family: "Prompt", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .prompt-black {
+    font-family: "Prompt", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .prompt-thin-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .prompt-extralight-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .prompt-light-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .prompt-regular-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .prompt-medium-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .prompt-semibold-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .prompt-bold-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .prompt-extrabold-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .prompt-black-italic {
+    font-family: "Prompt", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+* {
+    color: rgb(194, 255, 235);
+}
+p {
+    color: blueviolet;
+    font-size: 42pt;
+}
+
+#name {
+    /* ชาร์ป คือ การกำหนดให้ใช้ได้ในidนั้นๆ ส่วน . สามารถใช้ได้ในclassนั้น */
+    font-size: 50pt;
+    color: rgb(255, 187, 103);
+    background-color: rgb(255, 110, 66);
+    padding: 20px 20px 50px 500px;
+    margin: 20px 100px 20px 100px;
+    /* padding คือ การกำหนดให้ข้างในelement  */
+    /* margin คือ การกำหนดให้ข้างนอกelement รอบๆตรง padding ให้อยุ่ตรงไหน */
+}
+.name {
+    font-size: 28pt;
+    color: rgb(255, 17, 195);
+}
+
+p.text{
+    font-size: 10pt;
+    color: rgb(34, 68, 78);
+}
+.btn{
+    background-color: rgb(2, 136, 13);
+    color: azure;
+    font-size: 24px;
+    padding: 15px 25px 15px 25px;
+    margin: 10px ;
+    border:salmon solid 2px;
+    /* solid คือเส้นขอบของปุ่ม */
+}
+.btn:hover{
+    /* hover เมื่อเอา cursor ไปชี้จะเปลี่ยนสีหรือว่ากระพริบ */
+    background-color: rgb(2, 136, 13);
+    color: rgb(134, 199, 150);
+    font-size: 24px;
+    padding: 15px 25px 15px 25px;
+    margin: 10px ;
+    border:rgb(114, 250, 143) solid 2px;
+}
+.btn:active{
+    /* active เมื่อคลิกไปที่ปุ่มแล้วปุ่มจะกะพริบ */
+    background-color: rgb(5, 77, 11);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding: 15px 25px 15px 25px;
+    margin: 10px ;
+    border:rgb(114, 250, 143) solid 2px;
+}
+ .inline{
+    display: inline;
+    background-color: rgb(2, 136, 13);
+    padding: 20px;
+    margin-right: 5px;
+ }
+ /* inline อยู่ในบรรทัดเดียวกัน block จะแยกให้อยู่คนละบรรทัดแต่ bg จะจองไว้เต็ม สามารถกำหนดระยะห่าง elementได้*/
+ .box {
+    background-color: rgb(60, 150, 67);
+    padding: 20px;
+    margin-right: 5px;
+ }
+ .flex-box {
+    display:flex;
+    justify-content: space-evenly;
+
+ }
+ .grid-box {
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    row-gap: 10px;
+    /* grid temcolumn ถ้าช่อง repeat เกินตามที่กำหนดจะเว้นบรรทัดใหม่ */
+ }
+
+ .login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: rgb(141,194,111);
+  background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
