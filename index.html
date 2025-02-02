@@ -3,72 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="/nat/style.css">
-    <title>Login Page</title>
+    <title>Document</title>
 </head>
-<body class="bg-blue-900 flex items-center justify-center min-h-screen">
-    <div class="wrapper bg-[#0F4267] p-8 rounded-2xl shadow-md w-[530px] h-[460px]">
-      
-        <h2 class="text-center text-xl font-bold mb-6 text-white">Welcome My homies! login now!</h2>
+<body>
+      <div class="nav">
+        <ul>
+            <li>หน้าหลัก</li>
+            <li>ข้อมูลส่วนตัว</li>
+            <li>ช่องทางติดต่อ</li>
+            <li>ผลงาน</li>
+        </ul>
+      </div>
+      <div class="menu">Menu</div>
+      <div class="nav-mob">
+        <ul>
+            <li>หน้าหลัก</li>
+            <li>ข้อมูลส่วนตัว</li>
+            <li>ช่องทางติดต่อ</li>
+            <li>ผลงาน</li>
+        </ul>
+      </div>
 
-        <h1 class="text-center text-3xl font-bold mb-6 text-white">Login Page</h1>
+      <div class="home">
+        <p>สวัสดีครับผมชื่อณฐวัฒน์ กลิ่นประวัติ</p>
+        <p>ผมเป็นนักศึกษาอยู่ที่วิทยาลัยเทคนิคสมุทรสาครับ ตอนนี้ผมศึกษาอยู่สาขาวิชา เทคโนโลยีสารสนเทศ ปวช.1</p>
+        <p>นี่คือเว็บไซต์สำหรับพอร์ตโฟลิโอ ตอนนี้ผมกำลังศึกษาเกี่ยวกับโปรแกรมอยู่</p>
+      </div>
 
-        <form id="loginForm" method="post">
-            <div class="input-container mb-4">
-                <label for="username" class="block text-lg font-medium mb-2 text-white">Username</label>
-                <input 
-                    id="username" 
-                    type="text" 
-                    placeholder="Enter your username" 
-                    class="input-field w-full p-2 rounded-md"
-                />
-                <i class="fa-solid fa-user ml-5 icon"></i> 
-            </div>
+      <div class="infor">
+        <p>ชื่อจริง:ณฐวัฒน์ กลิ่นประวัติ </p>
+        <p>ชื่อเล่น: กล้า</p>
+        <P>อายุ: 15 ปี</P>
+        <p>เกิดเมื่อวันที่: 2 กุมภาพันธ์ พ.ศ.2552</p>
+        
+            <p>ภาษาโปรแกรม</p>
+        <p>HTML</p><div class="bar1"></div>   <p>CSS</p><div class="bar2"></div>
+        <p>Javascript</p><div class="bar3"></div> <p>SQL</p><div class="bar4"></div>
+      </div>
 
-            <div class="input-container mb-4">
-                <label for="password" class="block text-lg font-medium mb-2 text-white">Password</label>
-                <input 
-                    id="password" 
-                    type="password" 
-                    placeholder="Enter your password" 
-                    class="input-field w-full p-2 rounded-md"
-                />
-                <i class="fa-solid fa-lock ml-5 icon"></i> 
-            </div>
-
-            <div class="text-center mt-4">
-                <button 
-                    type="submit" 
-                    id="loginBtn"
-                    class="bg-green-500 text-white text-lg px-8 py-2 rounded-lg hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 w-80"
-                >
-                    Login
-                </button>
-            </div>
-        </form>
-    </div>
-
-     
-    <div id="popup-overlay"></div>
-
-  
-    <div class="popup error" id="errorPopup">
-        <p>ชื่อผู้ใช้งาน หรือ รหัสผิด! กรอกใหม่ครับผม</p>
-        <button id="closeErrorPopup">Close</button>
-    </div>
-
-   
-    <div class="popup success" id="successPopup">
-        <p>ล็อกอินเสร็จเว้ยยย</p>
-        <button id="closeSuccessPopup"> ไปหน้าหลักกันครับBro</button>
-       
-    </div>
-
-   
-
-    <script src="/script/index.js"></script>
+      div
 </body>
 </html>
